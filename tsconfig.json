@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "typeRoots": ["./node_modules/@types"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "noImplicitThis": true
+  },
+  "exclude": [
+    "./test"
+  ],
+}
